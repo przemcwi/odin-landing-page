@@ -140,3 +140,30 @@ img{
     margin-left: auto;
     font-weight: 600;
 }
+
+.call-to-action{
+    background-color: #3882f6;
+    color: #f9faf8;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action > div p:first-child{
+    font-size: 2em;
+    margin-bottom: 10px
+}
+
+.call-to-action > div p ~ p{
+    font-size: 1.4em;
+}
+
+.call-to-action a{
+    border: 2px solid #f9faf8;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
