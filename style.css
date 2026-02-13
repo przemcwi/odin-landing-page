@@ -167,3 +167,14 @@ img{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 50px;
+}
+
+footer p{
+    width: fit-content;
+    margin: auto;
+}
