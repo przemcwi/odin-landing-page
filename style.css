@@ -81,3 +81,41 @@ img{
 .header__content > div:first-child p{
     max-width: 500px;
 }
+
+.rect-section{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.rect-section h2{
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.rect-section .items{
+    display: flex;
+}
+
+.rect-section .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.rect-section .item p{
+    margin-top: 20px;
+    font-size: 22px;
+    max-width: 200px;
+}
+
+.rect-section .rect{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
